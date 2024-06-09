@@ -222,11 +222,11 @@ p::selection {
 @media screen and (min-width: 1024px) {
   /* Layout */
   body {
-    margin: 0;
+    margin: 1.2rem;
   }
   .wrapper {
     grid-template-columns: repeat(4, 1fr);
-    max-width: 64rem;
+    max-width: 65rem;
   }
   .grid-column-span {
     grid-column: span 2;
